@@ -48,7 +48,24 @@ print()
 number = int(input("Podaj liczbę całkowitą: "))
 print(number)
 
-digits = ["{:8b}".format(number)]
-digits2=int(digits[0])
-print(digits2)
+bits =[]
+for n in range(8):
+    mask = 1 << n
+    result = number & mask
+    bit = int(bool(result))
+    bits.append(bit)
+    n+=1
+print(bits)
+
+ones_total = 0
+for bit in bits:
+    if bit == 1:
+        ones_total += 1
+
+if ones_total == 1:
+    print("Liczba", number, "ma", ones_total, "jedynkę w ciągu bitów.")
+elif ones_total == 2 or ones_total == 3 or ones_total == 4:
+    print("Liczba", number, "ma", ones_total, "jedynki w ciągu bitów.")
+else:
+    print("Liczba", number, "ma", ones_total, "jedynek w ciągu bitów.")
 
