@@ -87,4 +87,5 @@ print(len(fruits), fruits)
 del fruits
 print(len(fruits))
 print(fruits[0])
+#
 

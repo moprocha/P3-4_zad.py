@@ -46,3 +46,4 @@ for chess_row in chessboard:
     for chess_square in chess_row:
         print(chess_square, end=" ")
     print()
+#

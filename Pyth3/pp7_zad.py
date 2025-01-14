@@ -70,4 +70,5 @@ else:
             print("Brawo! A jednak do 3 razy sztuka!")
         else:
             print("Niestety, myślałem o liczbie " + str(number) + ".")
+#
 

@@ -13,6 +13,7 @@ for i in range(1,101):
     if i % 3 != 0:
         print(i)
 
+
 #b
 
 rozm=int(input("Podaj rozmiar: "))
@@ -59,3 +60,4 @@ print("lata: ", years)
 trains = int(tons/2200)
 
 print("pociągów: ", trains)
+#

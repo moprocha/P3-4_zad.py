@@ -68,4 +68,4 @@ elif ones_total == 2 or ones_total == 3 or ones_total == 4:
     print("Liczba", number, "ma", ones_total, "jedynki w ciągu bitów.")
 else:
     print("Liczba", number, "ma", ones_total, "jedynek w ciągu bitów.")
-
+#

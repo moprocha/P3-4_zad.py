@@ -42,3 +42,4 @@ elif number <0:
     print("Liczba mniejsza od zera")
 else:
     print("Liczba równa zero")
+#

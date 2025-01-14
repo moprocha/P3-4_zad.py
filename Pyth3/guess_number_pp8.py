@@ -11,3 +11,4 @@ while guess != number:
     counter += 1
 
 print("Brawo! Udało Ci się już za " + str(counter)+" razem.")
+#

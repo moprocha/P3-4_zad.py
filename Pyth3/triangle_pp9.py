@@ -24,6 +24,7 @@ if a+b>c and a+c>b and b+c>a:
         print("Trójkąt jest ostrokątny.", end=' ')
 else:
     print("Z tych odcinków nie powstanie trójkąt.")
+#
 
 
 

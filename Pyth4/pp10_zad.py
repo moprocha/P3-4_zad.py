@@ -65,3 +65,4 @@ for i in range(len(freq)):
     if freq[i] > freq[most_freq]:
         most_freq = i
 print("Najczęściej występującą cyfrą jest", str(most_freq) + "." + " Wystąpiła", freq[most_freq], "razy.")
+#

@@ -63,7 +63,7 @@ for i in range(5):
         break
 else:
     print("Koniec pętli...")
-
+#
 
 
 

@@ -40,3 +40,4 @@ print("{:08b}".format(number))
 print("{:08b}".format(mask))
 print("-" *8)
 print("{:08b}".format(result))
+#

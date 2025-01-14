@@ -18,3 +18,4 @@ if number % 7 == 0:
     print(" - podzielna przez 7")
 else:
     print(" - niepodzielna przez 7")
+#
